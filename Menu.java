@@ -1,13 +1,15 @@
 import java.util.Scanner;
 
+
 public class Menu {
 
+    //Main General del programa
     public static void main(String[] args){
 
         Scanner scanner = new Scanner (System.in);
 
-        System.out.println("--------------------MENU--------------------\n");
-        System.out.println("OPCIONES");
+        System.out.println("\n\n--------------------MENU--------------------\n");
+        System.out.println("OPCIONES\n");
         System.out.println("1. Calcualdora basica");
         System.out.println("2. Numero par  o impar");
         System.out.println("3. Tabla de multiplicar");

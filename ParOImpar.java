@@ -5,13 +5,13 @@ public class ParOImpar{
 
     //"main" de prueba:
 
-    // public static void main(String[] args){
+     public static void main(String[] args){
 
-    //     ParOImpar valor = new ParOImpar();
+         ParOImpar valor = new ParOImpar();
 
-    //     System.out.println(valor.CalculaParOImpar());
+         System.out.println(valor.CalculaParOImpar());
 
-    // }
+     }
 
     public void CalculaParOImpar(){
         
