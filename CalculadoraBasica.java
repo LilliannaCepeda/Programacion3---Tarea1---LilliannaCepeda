@@ -2,13 +2,14 @@ import java.lang.classfile.instruction.SwitchCase;
 import java.util.Scanner;
 
 public class CalculadoraBasica {
-    
-   // main falso de prueba
 
-     public static void main(String[] args){
+    int num1;
+    int num2;
+
+   //main de prueba
+     public void menu(Scanner scanner){
 
          CalculadoraBasica calculadoraBasica = new CalculadoraBasica();
-         Scanner scanner = new Scanner(System.in);
          int opcion = 0;
 
          do{
@@ -55,15 +56,15 @@ public class CalculadoraBasica {
 
          scanner.close();
         
-    }
+   }
 
     public double Sumar(Scanner scanner){
 
         System.out.print("Digite el primer valor: ");
-        int num1 = scanner.nextInt();
+        num1 = scanner.nextInt();
 
         System.out.print("Digite el segundo valor: ");
-        int num2 = scanner.nextInt();
+        num2 = scanner.nextInt();
 
         return num1 + num2;
 
@@ -72,21 +73,21 @@ public class CalculadoraBasica {
     public double Restar(Scanner scanner){
 
         System.out.println("Digite el primer valor: ");
-        int num1 = scanner.nextInt();
+        num1 = scanner.nextInt();
         
         System.out.println("Digite el segundo valor: ");
-        int num2 = scanner.nextInt();
+        num2 = scanner.nextInt();
 
-        return num1 - num2;
+        return  num1 - num2;
     }
 
     public double multiplicar(Scanner scanner){
 
         System.out.println("Digite el primer valor: ");
-        int num1 = scanner.nextInt();
+        num1 = scanner.nextInt();
         
         System.out.println("Digite el segundo valor: ");
-        int num2 = scanner.nextInt();
+        num2 = scanner.nextInt();
 
         return num1 * num2;
     }
@@ -95,10 +96,10 @@ public class CalculadoraBasica {
 
         
         System.out.println("Digite el primer valor: ");
-        int num1 = scanner.nextInt();
+        num1 = scanner.nextInt();
         
         System.out.println("Digite el segundo valor: ");
-        int num2 = scanner.nextInt();
+        num2 = scanner.nextInt();
 
         return num1 / num2;
 

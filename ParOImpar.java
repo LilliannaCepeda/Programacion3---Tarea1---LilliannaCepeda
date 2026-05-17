@@ -5,22 +5,18 @@ public class ParOImpar{
 
     //"main" de prueba:
 
-     public static void main(String[] args){
+    //  public static void main(String[] args){
 
-         ParOImpar valor = new ParOImpar();
+    //      ParOImpar valor = new ParOImpar();
 
-         System.out.println(valor.CalculaParOImpar());
+    //      valor.CalculaParOImpar();
 
-     }
+    //  }
 
-    public void CalculaParOImpar(){
+    public void CalculaParOImpar(Scanner scanner){
         
-        Scanner scanner = new Scanner(System.in);
-
         System.out.print("Digite el numero: ");
         int num = scanner.nextInt();
-        
-        scanner.close();
 
         if(num % 2 == 0)
         {

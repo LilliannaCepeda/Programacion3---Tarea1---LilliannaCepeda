@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class TablaDeMultiplicar {
 
-    public static void main(String[] args){
+    //main para prueba
+    // public static void main(String[] args){
 
-        TablaDeMultiplicar tabla = new TablaDeMultiplicar();
-        tabla.tablasMultiplicar();
-    }
+    //     TablaDeMultiplicar tabla = new TablaDeMultiplicar();
+    //     tabla.tablasMultiplicar();
+    // }
     
-    public void tablasMultiplicar(){
+    public void tablasMultiplicar(Scanner scanner){
 
-        Scanner scanner = new Scanner(System.in);
         System.out.print("\nElige que tabla de multiplicar quieres ver (Solo disponible hasta la 12): ");
         //numero fijo de la tabla
         
